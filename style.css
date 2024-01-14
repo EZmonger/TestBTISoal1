@@ -66,6 +66,69 @@
     padding: 10px 0px;
 }
 
+.footer-box{
+    position: relative;
+    margin-top: 10px;
+    width: 60%;
+    height: 100px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+.box-decoration{
+    position: absolute;
+    width: 20%;
+    /* height: 30px; */
+    /* top: 2px; */
+    /* height: 30%; */
+}
+
+.bd1{
+    background-color: red;
+    /* bottom: 2px; */
+    top: 0%;
+    height: 40%;
+
+    /* background-color: white;
+    width: 20%;
+    height: 30%;
+    float: left;
+    top: 20%; */
+
+}
+
+.bd2{
+    background-color: white;
+    top: 30%;
+    height: 50%;
+    left: 10%;
+}
+
+.bd3{
+    background-color: red;
+    bottom: 0%;
+    height: 30%;
+    left: 25%;
+}
+.box-decoration2{
+    background-color: red;
+    width: 20%;
+    height: 50px;
+
+    position: absolute;
+    top: 275px;
+    left: 50%;
+}
+.box-decoration3{
+    background-color: red;
+    width: 10%;
+    height: 30px;
+
+    position: absolute;
+    top: 330px;
+    left: 80%;
+}
+
+
 @media screen and (max-width: 400px) {
     .part2, .part3{
         width: 100%;
@@ -96,6 +159,9 @@
         display: flex;
         flex-wrap: nowrap;
         border-bottom: 3px solid black;
+    }
+    .footer{
+        visibility: hidden;
     }
 }
 
